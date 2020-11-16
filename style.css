@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.container {
+  max-width: 280px;
+  margin: 0 auto;
+}
+/* header===================================================== */
+.header {
+  background-color: #242424;
+}
+.header-logo {
+  text-align: center;
+  height: 85px;
+}
+.header-logo img {
+  padding: 28px 0;
+}
+/*  header-nav================================================ */
+.header-nav {
+  background-color: #826550;
+}
+.header-nav-inner {
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+}
+.header-nav-inner a {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+/* .line {
+  width: 33px;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 12px;
+  position: relative;
+  display: flex;
+}
+.burger {
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  background-color: #6a4d38;
+  margin-top: -39px;
+  margin-left: 210px;
+}
+.line:before,
+.line:after {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 2px;
+  background-color: #fff;
+}
+.line:before {
+  margin-top: 12px;
+}
+.line:after {
+  margin-top: 24px;
+} */
+/* block============================================================= */
+.block {
+  background-image: url("img/bg.jpg");
+}
+/* header-h1 =========================================================*/
+.header-h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding: 35px 0;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.input div {
+  padding-bottom: 10px;
+}
+.input-tel div {
+  padding-bottom: 10px;
+}
+.input-tel :first-child {
+  padding-top: 25px;
+}
+.box {
+  width: 100%;
+  padding: 18px;
+  font-size: 18px;
+  color: #000;
+  border: 1px solid #e5ddd5;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.textarea {
+  width: 100%;
+  height: 110px;
+  border: 1px solid #e5ddd5;
+  padding: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+}
+/* title================================ */
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 45px 0;
+  text-align: center;
+}
+.item {
+  text-align: center;
+  cursor: pointer;
+}
+.item p {
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.item input {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5ddd5;
+}
+/* checkbox====================================== */
+.checkbox {
+  padding: 0;
+}
+.check-item {
+  list-style: none;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+.checkbox-style {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.cur-po {
+  cursor: pointer;
+}
+/* button============================================= */
+.button-a {
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #826550;
+  text-align: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+}
+.button {
+  padding: 25px 0;
+}
+/* footer================================================== */
+.footer {
+  background-color: #242424;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.footer h3 {
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fff;
+}
+footer p {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fff;
+}
+.tel {
+  color: #fff;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 15px 70px;
+  cursor: pointer;
+}
+.telephone {
+  padding-bottom: 30px;
+}
+.telephone .col {
+  border: 1px solid #3e3e3e;
+}
+.icons .col-4 {
+  /* padding: 0; */
+  border: 1px solid #3e3e3e;
+  padding: 30px;
+}
+.footer-p {
+  padding: 40px 0 20px;
+}
+.footer-button a {
+  padding: 20px 80px;
+  border: 1px solid #3e3e3e;
+  color: #fff;
+  cursor: pointer;
+}
